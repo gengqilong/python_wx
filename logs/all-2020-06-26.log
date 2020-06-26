@@ -1,0 +1,358 @@
+[2020-06-26 17:46:46,892] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 17:48:49,344] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- E:\python_wx\python_wx\settings.py changed, reloading.
+[2020-06-26 17:48:54,172] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 17:54:25,210] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- E:\python_wx\python_wx\urls.py changed, reloading.
+[2020-06-26 17:54:29,977] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 17:56:12,943] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- E:\python_wx\python_wx\urls.py changed, reloading.
+[2020-06-26 17:56:18,202] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 17:56:43,441] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- E:\python_wx\python_wx\urls.py changed, reloading.
+[2020-06-26 17:56:47,855] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 17:56:56,158] [urls.py:23] [urls:log] [INFO]- info
+[2020-06-26 17:56:56,186] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 4
+[2020-06-26 17:57:45,958] [urls.py:23] [urls:log] [INFO]- info
+[2020-06-26 17:57:45,966] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 4
+[2020-06-26 17:57:48,681] [urls.py:23] [urls:log] [INFO]- info
+[2020-06-26 17:57:48,686] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 4
+[2020-06-26 17:57:49,107] [urls.py:23] [urls:log] [INFO]- info
+[2020-06-26 17:57:49,113] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 4
+[2020-06-26 20:40:47,115] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 21:16:02,734] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 21:16:16,550] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- E:\python_wx\python_wx\urls.py changed, reloading.
+[2020-06-26 21:16:18,654] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 21:30:46,281] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- E:\python_wx\python_wx\urls.py changed, reloading.
+[2020-06-26 21:30:58,094] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 21:31:51,137] [log.py:228] [log:log_response] [WARNING]- Not Found: /users/register
+[2020-06-26 21:31:51,138] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /users/register HTTP/1.1" 404 2091
+[2020-06-26 21:32:04,007] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- E:\python_wx\python_wx\urls.py changed, reloading.
+[2020-06-26 21:32:06,154] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 21:32:10,559] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /users/register HTTP/1.1" 301 0
+[2020-06-26 21:32:11,337] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /users/register/
+Traceback (most recent call last):
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: __init__() takes 1 positional argument but 2 were given
+[2020-06-26 21:32:11,353] [basehttp.py:154] [basehttp:log_message] [ERROR]- "GET /users/register/ HTTP/1.1" 500 64342
+[2020-06-26 21:32:59,579] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- E:\python_wx\python_wx\urls.py changed, reloading.
+[2020-06-26 21:33:02,073] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 21:34:42,852] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 21:34:49,183] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /users/register/
+Traceback (most recent call last):
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: __init__() takes 1 positional argument but 2 were given
+[2020-06-26 21:34:49,188] [basehttp.py:154] [basehttp:log_message] [ERROR]- "GET /users/register/ HTTP/1.1" 500 65942
+[2020-06-26 21:35:25,232] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 21:35:35,667] [log.py:228] [log:log_response] [WARNING]- Not Found: /users
+[2020-06-26 21:35:35,669] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /users HTTP/1.1" 404 2063
+[2020-06-26 21:36:55,724] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /users/register/
+Traceback (most recent call last):
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: __init__() takes 1 positional argument but 2 were given
+[2020-06-26 21:36:55,726] [basehttp.py:154] [basehttp:log_message] [ERROR]- "GET /users/register/ HTTP/1.1" 500 64078
+[2020-06-26 21:37:38,348] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- E:\python_wx\python_wx\settings.py changed, reloading.
+[2020-06-26 21:37:40,587] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 21:37:44,870] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /users/register/
+Traceback (most recent call last):
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: __init__() takes 1 positional argument but 2 were given
+[2020-06-26 21:37:44,887] [basehttp.py:154] [basehttp:log_message] [ERROR]- "GET /users/register/ HTTP/1.1" 500 27
+[2020-06-26 21:38:01,206] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- E:\python_wx\users\views.py changed, reloading.
+[2020-06-26 21:38:03,602] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 21:38:13,606] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /users/register/
+Traceback (most recent call last):
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: __init__() takes 1 positional argument but 2 were given
+[2020-06-26 21:38:13,611] [basehttp.py:154] [basehttp:log_message] [ERROR]- "GET /users/register/ HTTP/1.1" 500 27
+[2020-06-26 21:38:39,703] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 21:38:53,074] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /users/register/
+Traceback (most recent call last):
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: __init__() takes 1 positional argument but 2 were given
+[2020-06-26 21:38:53,079] [basehttp.py:154] [basehttp:log_message] [ERROR]- "GET /users/register/ HTTP/1.1" 500 27
+[2020-06-26 21:38:58,140] [log.py:228] [log:log_response] [WARNING]- Not Found: /users
+[2020-06-26 21:38:58,142] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /users HTTP/1.1" 404 77
+[2020-06-26 21:39:20,018] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- E:\python_wx\users\urls.py changed, reloading.
+[2020-06-26 21:39:23,223] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 21:39:31,946] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /users HTTP/1.1" 301 0
+[2020-06-26 21:39:31,995] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /users/
+Traceback (most recent call last):
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: __init__() takes 1 positional argument but 2 were given
+[2020-06-26 21:39:31,997] [basehttp.py:154] [basehttp:log_message] [ERROR]- "GET /users/ HTTP/1.1" 500 27
+[2020-06-26 21:41:50,638] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- E:\python_wx\python_wx\urls.py changed, reloading.
+[2020-06-26 21:41:54,095] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 21:42:01,693] [log.py:228] [log:log_response] [WARNING]- Not Found: /users/register/
+[2020-06-26 21:42:01,695] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /users/register/ HTTP/1.1" 404 77
+[2020-06-26 21:42:14,961] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- E:\python_wx\python_wx\urls.py changed, reloading.
+[2020-06-26 21:42:18,412] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 21:42:20,883] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /users/register/
+Traceback (most recent call last):
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: __init__() takes 1 positional argument but 2 were given
+[2020-06-26 21:42:20,891] [basehttp.py:154] [basehttp:log_message] [ERROR]- "GET /users/register/ HTTP/1.1" 500 27
+[2020-06-26 21:42:34,307] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /users/register/
+Traceback (most recent call last):
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: __init__() takes 1 positional argument but 2 were given
+[2020-06-26 21:42:34,311] [basehttp.py:154] [basehttp:log_message] [ERROR]- "GET /users/register/ HTTP/1.1" 500 27
+[2020-06-26 21:43:14,788] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- E:\python_wx\users\views.py changed, reloading.
+[2020-06-26 21:43:18,265] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 21:43:20,274] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /users/register/
+Traceback (most recent call last):
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: __init__() takes 1 positional argument but 2 were given
+[2020-06-26 21:43:20,279] [basehttp.py:154] [basehttp:log_message] [ERROR]- "GET /users/register/ HTTP/1.1" 500 27
+[2020-06-26 21:43:47,349] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /users/register/
+Traceback (most recent call last):
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: __init__() takes 1 positional argument but 2 were given
+[2020-06-26 21:43:47,354] [basehttp.py:154] [basehttp:log_message] [ERROR]- "GET /users/register/ HTTP/1.1" 500 27
+[2020-06-26 21:44:21,829] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- E:\python_wx\python_wx\urls.py changed, reloading.
+[2020-06-26 21:44:25,081] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 21:44:31,714] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /users/register/
+Traceback (most recent call last):
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: object() takes no parameters
+[2020-06-26 21:44:31,719] [basehttp.py:154] [basehttp:log_message] [ERROR]- "GET /users/register/ HTTP/1.1" 500 27
+[2020-06-26 21:45:13,252] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- E:\python_wx\users\views.py changed, reloading.
+[2020-06-26 21:45:16,045] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 21:46:11,237] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- E:\python_wx\users\views.py changed, reloading.
+[2020-06-26 21:46:14,773] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 21:46:50,908] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- E:\python_wx\users\views.py changed, reloading.
+[2020-06-26 21:46:54,259] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 21:47:05,085] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- E:\python_wx\users\views.py changed, reloading.
+[2020-06-26 21:47:08,242] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 21:47:14,455] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- E:\python_wx\users\views.py changed, reloading.
+[2020-06-26 21:47:17,883] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 21:47:30,601] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /users/register/
+Traceback (most recent call last):
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: object() takes no parameters
+[2020-06-26 21:47:30,604] [basehttp.py:154] [basehttp:log_message] [ERROR]- "GET /users/register/ HTTP/1.1" 500 27
+[2020-06-26 21:48:24,331] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- E:\python_wx\users\views.py changed, reloading.
+[2020-06-26 21:48:27,616] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 21:48:33,695] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /users/register/
+Traceback (most recent call last):
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: __init__() takes 1 positional argument but 2 were given
+[2020-06-26 21:48:33,718] [basehttp.py:154] [basehttp:log_message] [ERROR]- "GET /users/register/ HTTP/1.1" 500 27
+[2020-06-26 21:49:00,455] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- E:\python_wx\users\views.py changed, reloading.
+[2020-06-26 21:49:03,757] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 21:49:26,570] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- E:\python_wx\users\views.py changed, reloading.
+[2020-06-26 21:49:30,823] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 21:50:26,547] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- E:\python_wx\users\views.py changed, reloading.
+[2020-06-26 21:50:29,585] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 21:50:39,689] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /users/register/
+Traceback (most recent call last):
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: Register() takes 0 positional arguments but 1 was given
+[2020-06-26 21:50:39,693] [basehttp.py:154] [basehttp:log_message] [ERROR]- "GET /users/register/ HTTP/1.1" 500 27
+[2020-06-26 21:50:54,803] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- E:\python_wx\users\views.py changed, reloading.
+[2020-06-26 21:50:58,253] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 21:51:00,250] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /users/register/
+Traceback (most recent call last):
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: Register() takes 0 positional arguments but 1 was given
+[2020-06-26 21:51:00,254] [basehttp.py:154] [basehttp:log_message] [ERROR]- "GET /users/register/ HTTP/1.1" 500 27
+[2020-06-26 21:51:09,301] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- E:\python_wx\users\views.py changed, reloading.
+[2020-06-26 21:51:12,585] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 21:51:39,092] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- E:\python_wx\users\views.py changed, reloading.
+[2020-06-26 21:51:42,454] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 21:51:57,772] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /users/register/
+Traceback (most recent call last):
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: __init__() takes 1 positional argument but 2 were given
+[2020-06-26 21:51:57,777] [basehttp.py:154] [basehttp:log_message] [ERROR]- "GET /users/register/ HTTP/1.1" 500 27
+[2020-06-26 21:52:14,618] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- E:\python_wx\users\views.py changed, reloading.
+[2020-06-26 21:52:18,152] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 21:53:11,661] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- E:\python_wx\users\views.py changed, reloading.
+[2020-06-26 21:53:15,003] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 21:53:20,235] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /users/register/
+Traceback (most recent call last):
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: __init__() takes 1 positional argument but 2 were given
+[2020-06-26 21:53:20,262] [basehttp.py:154] [basehttp:log_message] [ERROR]- "GET /users/register/ HTTP/1.1" 500 27
+[2020-06-26 21:54:30,573] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 302 0
+[2020-06-26 21:54:31,027] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1819
+[2020-06-26 21:54:31,106] [log.py:228] [log:log_response] [WARNING]- Not Found: /static/admin/css/login.css
+[2020-06-26 21:54:31,108] [log.py:228] [log:log_response] [WARNING]- Not Found: /static/admin/css/base.css
+[2020-06-26 21:54:31,110] [log.py:228] [log:log_response] [WARNING]- Not Found: /static/admin/css/responsive.css
+[2020-06-26 21:54:31,113] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/admin/css/login.css HTTP/1.1" 404 77
+[2020-06-26 21:54:31,116] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/admin/css/base.css HTTP/1.1" 404 77
+[2020-06-26 21:54:31,125] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/admin/css/responsive.css HTTP/1.1" 404 77
+[2020-06-26 21:56:21,743] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- E:\python_wx\users\views.py changed, reloading.
+[2020-06-26 21:56:25,029] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 21:56:38,917] [log.py:228] [log:log_response] [WARNING]- Not Found: /
+[2020-06-26 21:56:38,920] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 77
+[2020-06-26 21:56:55,595] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /users/register/ HTTP/1.1" 200 127
+[2020-06-26 21:57:44,243] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- E:\python_wx\python_wx\urls.py changed, reloading.
+[2020-06-26 21:57:47,598] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 21:57:56,085] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- E:\python_wx\users\views.py changed, reloading.
+[2020-06-26 21:57:59,277] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 21:58:10,281] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- E:\python_wx\users\views.py changed, reloading.
+[2020-06-26 21:58:13,573] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 21:58:18,019] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /users/register/
+Traceback (most recent call last):
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: object() takes no parameters
+[2020-06-26 21:58:18,024] [basehttp.py:154] [basehttp:log_message] [ERROR]- "GET /users/register/ HTTP/1.1" 500 27
+[2020-06-26 22:00:01,385] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- E:\python_wx\users\views.py changed, reloading.
+[2020-06-26 22:00:04,908] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 22:01:27,471] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- E:\python_wx\users\views.py changed, reloading.
+[2020-06-26 22:01:31,557] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 22:01:54,134] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- E:\python_wx\users\views.py changed, reloading.
+[2020-06-26 22:01:57,261] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 22:02:03,664] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /users/register/
+Traceback (most recent call last):
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: __init__() takes 1 positional argument but 2 were given
+[2020-06-26 22:02:03,669] [basehttp.py:154] [basehttp:log_message] [ERROR]- "GET /users/register/ HTTP/1.1" 500 27
+[2020-06-26 22:02:15,250] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- E:\python_wx\users\views.py changed, reloading.
+[2020-06-26 22:02:18,352] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 22:02:23,645] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /users/register/
+Traceback (most recent call last):
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python35\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: __init__() takes 1 positional argument but 2 were given
+[2020-06-26 22:02:23,680] [basehttp.py:154] [basehttp:log_message] [ERROR]- "GET /users/register/ HTTP/1.1" 500 27
+[2020-06-26 22:02:48,522] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- E:\python_wx\users\views.py changed, reloading.
+[2020-06-26 22:02:51,641] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 22:04:30,655] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- E:\python_wx\users\views.py changed, reloading.
+[2020-06-26 22:04:33,947] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 22:09:38,580] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- E:\python_wx\users\views.py changed, reloading.
+[2020-06-26 22:09:41,916] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 22:09:47,603] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /users/register/ HTTP/1.1" 200 127
+[2020-06-26 22:10:22,279] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- E:\python_wx\python_wx\urls.py changed, reloading.
+[2020-06-26 22:10:25,673] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 22:10:55,086] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 22:11:01,678] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /users/register/ HTTP/1.1" 200 127
+[2020-06-26 22:12:00,499] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- E:\python_wx\users\urls.py changed, reloading.
+[2020-06-26 22:12:02,885] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 22:12:04,635] [log.py:228] [log:log_response] [WARNING]- Not Found: /users/register/
+[2020-06-26 22:12:04,637] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /users/register/ HTTP/1.1" 404 77
+[2020-06-26 22:12:07,298] [log.py:228] [log:log_response] [WARNING]- Not Found: /users/register/
+[2020-06-26 22:12:07,312] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /users/register/ HTTP/1.1" 404 77
+[2020-06-26 22:12:23,575] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- E:\python_wx\users\urls.py changed, reloading.
+[2020-06-26 22:12:25,650] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 22:12:30,521] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /users/register?a=1 HTTP/1.1" 301 0
+[2020-06-26 22:12:30,555] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /users/register/?a=1 HTTP/1.1" 200 127
+[2020-06-26 22:13:02,240] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 22:13:07,084] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /users/register/?a=1 HTTP/1.1" 200 127
+[2020-06-26 22:13:17,531] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- E:\python_wx\users\urls.py changed, reloading.
+[2020-06-26 22:13:20,777] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 22:13:28,799] [log.py:228] [log:log_response] [WARNING]- Not Found: /users/register/
+[2020-06-26 22:13:28,801] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /users/register/?a=1 HTTP/1.1" 404 77
+[2020-06-26 22:13:46,174] [log.py:228] [log:log_response] [WARNING]- Not Found: /users/register/
+[2020-06-26 22:13:46,176] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /users/register/?a=1 HTTP/1.1" 404 77
+[2020-06-26 22:16:42,613] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- E:\python_wx\users\urls.py changed, reloading.
+[2020-06-26 22:16:45,737] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 22:18:00,561] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- E:\python_wx\users\views.py changed, reloading.
+[2020-06-26 22:18:03,996] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 22:19:21,485] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- E:\python_wx\users\views.py changed, reloading.
+[2020-06-26 22:19:24,635] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 22:19:50,312] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 22:21:36,598] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2020-06-26 22:21:39,765] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /users/register/?a=1 HTTP/1.1" 200 10
+[2020-06-26 22:21:41,385] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /users/register/?a=1 HTTP/1.1" 200 10
